@@ -17,7 +17,7 @@
     font-size: f.rem(12px);
     font-weight: 700;
     color: var(--color-bright-blue);
-    text-decoration: underline var(--color-bright-blue);
+    -webkit-text-decoration: underline var(--color-bright-blue);
 
     cursor: pointer;
     transition: all 0.4s;
@@ -25,7 +25,7 @@
 
 .annual-plan_button span:hover {
     color: var(--color-bright-blue-hover);
-    text-decoration: underline transparent;
+    -webkit-text-decoration: underline transparent;
 }
 
 
