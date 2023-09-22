@@ -1,0 +1,43 @@
+@use "../abstracts/functions" as f;
+@use "../abstracts/colors";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+del, s {
+  text-decoration: line-through;
+}
+
+mark::before, mark::after, del::before, del::after, ins::before, ins::after, s::before, s::after {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+}
+
+s::before {
+  content: ' [strike-through start] ';
+}
+s::after {
+  content: ' [strike-through end] ';
+}
+
+body {
+    padding: 0 f.rem(10px);
+    font-size: f.rem(16px);
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--color-pale-blue);
+    height: 100%;
+    
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: repeat-x;
+    
+    display: grid;
+    place-content: center;
+}

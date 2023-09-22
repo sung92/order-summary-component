@@ -1,0 +1,69 @@
+@use "../abstracts/functions" as f;
+
+/**************************/
+/* PRODUCT CARD */
+/**************************/
+
+.c-product-card {
+    max-width: f.rem(375px);
+    border-radius: 11px;
+    overflow: hidden;
+
+    background-color: var(--color-white);
+    box-shadow: 0 1.5rem 2.5rem 0px rgba(0,0,0,0.2);
+}
+
+/**************************/
+/* PRODUCT TEXT HALF */
+/**************************/
+
+.c-product-card__text-half {
+    text-align: center;
+    padding: 0 2rem;
+}
+
+/* Product title  */
+
+.c-product-card__title {
+    margin-top: 1.2em;
+    font-size: f.rem(22px);
+    color: var(--color-dark-blue);
+    font-weight: 900;
+}
+
+/* Product description  */
+
+.c-product-card__desc {
+    margin-top: 1em;
+    font-size: f.rem(15px);
+    color: var(--color-desaturated-blue);
+}
+
+/* Product annual plan  */
+
+.annual-plan {
+    margin-top: 1.5em;
+    padding: 1rem;
+    border-radius: 11px;
+    background-color: var(--color-very-pale-blue);
+
+    display: flex;
+    gap: 1.5ch;
+}
+
+.ribbon-text {
+    font-size: f.rem(14px);
+    font-weight: 900;
+}
+
+.annual-plan__price {
+    font-size: f.rem(14px);
+    color: var(--color-desaturated-blue);
+}
+
+
+@media (width > 23.5em) {
+    body {
+        background-image: url(./images/pattern-background-desktop.svg);
+    }
+}

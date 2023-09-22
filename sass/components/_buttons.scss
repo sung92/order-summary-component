@@ -1,0 +1,70 @@
+@use "../abstracts/functions" as f;
+
+/**************************/
+/* CARD BUTTON */
+/**************************/
+
+.annual-plan_button {
+    margin-left: auto;
+
+    display: inline-block;
+    border: none;
+    
+    background: none;
+}
+
+.annual-plan_button span {
+    font-size: f.rem(14px);
+    font-weight: 700;
+    color: var(--color-bright-blue);
+    border-bottom: 0.1rem solid var(--color-bright-blue);
+
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.annual-plan_button span:hover {
+    color: var(--color-bright-blue-hover);
+    border-bottom: 0.1rem solid transparent;
+}
+
+
+/**************************/
+/* CTA BUTTON */
+/**************************/
+
+.button-payment {
+    margin-top: 2em;
+    display: block;
+    cursor: pointer;
+
+    padding: 0.8rem;
+    border-radius: 11px;
+    font-weight: 700;
+    color: var(--color-white);
+    background-color: var(--color-bright-blue);
+
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
+
+    transition: all 0.3s;
+}
+
+.button-payment:hover {
+    background-color: var(--color-bright-blue-hover);
+}
+
+.button-cancel-order {
+    display: inline-block;
+    margin: 2em 0;
+    border: none;
+    background-color: var(--color-white);
+    color: var(--color-desaturated-blue);
+    font-weight: 700;
+
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button-cancel-order:hover {
+    color: var(--color-dark-blue);
+}
