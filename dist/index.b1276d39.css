@@ -160,7 +160,8 @@ body {
 
 .annual-plan_button span {
   color: var(--color-bright-blue);
-  border-bottom: .1rem solid var(--color-bright-blue);
+  -webkit-text-decoration: underline var(--color-bright-blue);
+  text-decoration: underline var(--color-bright-blue);
   cursor: pointer;
   font-size: .75rem;
   font-weight: 700;
@@ -169,7 +170,8 @@ body {
 
 .annual-plan_button span:hover {
   color: var(--color-bright-blue-hover);
-  border-bottom: .1rem solid #0000;
+  -webkit-text-decoration: underline #0000;
+  text-decoration: underline #0000;
 }
 
 .button-payment {
