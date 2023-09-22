@@ -132,7 +132,7 @@ body {
 }
 
 .ribbon-text {
-  font-size: .875rem;
+  font-size: .78125rem;
   font-weight: 900;
 }
 
@@ -144,6 +144,10 @@ body {
 @media (width > 23.5em) {
   body {
     background-image: url("pattern-background-desktop.47289883.svg");
+  }
+
+  .ribbon-text {
+    font-size: .875rem;
   }
 }
 
@@ -158,7 +162,7 @@ body {
   color: var(--color-bright-blue);
   border-bottom: .1rem solid var(--color-bright-blue);
   cursor: pointer;
-  font-size: .875rem;
+  font-size: .75rem;
   font-weight: 700;
   transition: all .4s;
 }
@@ -198,6 +202,12 @@ body {
 
 .button-cancel-order:hover {
   color: var(--color-dark-blue);
+}
+
+@media (width > 23.5em) {
+  .annual-plan_button span {
+    font-size: .875rem;
+  }
 }
 
 /*# sourceMappingURL=index.b1276d39.css.map */

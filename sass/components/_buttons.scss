@@ -14,7 +14,7 @@
 }
 
 .annual-plan_button span {
-    font-size: f.rem(14px);
+    font-size: f.rem(12px);
     font-weight: 700;
     color: var(--color-bright-blue);
     border-bottom: 0.1rem solid var(--color-bright-blue);
@@ -67,4 +67,10 @@
 
 .button-cancel-order:hover {
     color: var(--color-dark-blue);
+}
+
+@media (width > 23.5em) {
+    .annual-plan_button span {
+        font-size: f.rem(14px);
+    }
 }

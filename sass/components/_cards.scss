@@ -52,7 +52,7 @@
 }
 
 .ribbon-text {
-    font-size: f.rem(14px);
+    font-size: f.rem(12.5px);
     font-weight: 900;
 }
 
@@ -65,5 +65,9 @@
 @media (width > 23.5em) {
     body {
         background-image: url(./images/pattern-background-desktop.svg);
+    }
+
+    .ribbon-text {
+        font-size: f.rem(14px);
     }
 }
