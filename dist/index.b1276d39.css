@@ -190,7 +190,7 @@ body {
 
 .button-payment:hover {
   background-color: var(--color-bright-blue-hover);
-  box-shadow: 0 2rem 2rem #00000026;
+  box-shadow: 0 1rem 1rem #0000001a;
 }
 
 .button-cancel-order {
