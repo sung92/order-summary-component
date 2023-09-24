@@ -161,6 +161,8 @@ body {
 .annual-plan_button span {
   color: var(--color-bright-blue);
   -webkit-text-decoration: underline var(--color-bright-blue);
+  text-decoration: underline var(--color-bright-blue);
+  -webkit-text-decoration: underline var(--color-bright-blue);
   cursor: pointer;
   font-size: .75rem;
   font-weight: 700;
@@ -170,6 +172,7 @@ body {
 .annual-plan_button span:hover {
   color: var(--color-bright-blue-hover);
   -webkit-text-decoration: underline #0000;
+  text-decoration: underline #0000;
 }
 
 .button-payment {
@@ -187,6 +190,7 @@ body {
 
 .button-payment:hover {
   background-color: var(--color-bright-blue-hover);
+  box-shadow: 0 2rem 2rem #00000026;
 }
 
 .button-cancel-order {
