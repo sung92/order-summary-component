@@ -71,7 +71,7 @@ My main focus now is to create a well-structured HTML first. Also to keep implem
 ### Useful resources
 
 - [BEM](https://getbem.com/introduction/)
-- [Tweaking Text Level Styles](https://adrianroselli.com/2017/12/tweaking-text-level-styles.html) - For accesibility: <s>, <del>, <mark>, <ins>.
+- [Tweaking Text Level Styles](https://adrianroselli.com/2017/12/tweaking-text-level-styles.html) - For accesibility: "s, del, mark, ins" elements.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
