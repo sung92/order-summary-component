@@ -52,8 +52,6 @@ Users should be able to:
 - CSS Grid
 - [CSS reset](https://github.com/mayank99/reset.css) - To baseline cross-browser styles
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
 - How to structure a good HTML first.
@@ -72,8 +70,6 @@ My main focus now is to create a well-structured HTML first. Also to keep implem
 
 - [BEM](https://getbem.com/introduction/)
 - [Tweaking Text Level Styles](https://adrianroselli.com/2017/12/tweaking-text-level-styles.html) - For accesibility: "s, del, mark, ins" elements.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
 ## Author
 
