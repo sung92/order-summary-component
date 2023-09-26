@@ -60,13 +60,13 @@ Users should be able to:
 - Landmarks: header, main, aside and footer.
 - Picture element for images
 - Ribbon text, headings and hgroup element for wrapping headings for a more visual-friendly structure.
-- <s> and <del> elements for a better accesibility.
-- When to use <button> and <a> for buttons.
+- "s" and "del" elements for a better accesibility.
+- When to use "button" and "a" elements for buttons.
 - Testing the final website with keyboard and screenreader for accesibility.
 
 ### Continued development
 
-My main focus now is to create a well-structured HTML first. Also to keep implementing what I've learned for this project. Next step, I would like to use a better <button> and <a> classnames for styling the base first (.btn, .link), and then use a modifier for each specific button (btn--primary, btn--secondary, etc &&  link--primary, link--secondary, etc).
+My main focus now is to create a well-structured HTML first. Also to keep implementing what I've learned for this project. Next step, I would like to use a better "button" and "a" classnames for styling the base first (.btn, .link), and then use a modifier for each specific button (btn--primary, btn--secondary, etc &&  link--primary, link--secondary, etc).
 
 ### Useful resources
 
